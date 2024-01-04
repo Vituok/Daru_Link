@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after{
+    box-sizing:inherit
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1920px;
+    padding: 0 10px; 
+    margin: 0 auto;
+}
+
+header{
+    width: 1920px;
+    min-height: 100vh;
+    position: relative;
+    left: 0;
+    right: 0;
+    background: #11161E;
+}
+
+a{
+    color:#76869F;
+    text-decoration: none;
+}
+
+#green{
+    color: #5CA35B;
+}
+
+.header_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 193px;
+}
+
+ul{
+    list-style: none;
+}
+.modern_solution{
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modern_solution-btn{
+    padding: 24px 26px 25px;
+    border-radius: 10px;
+    background: #5CA35B;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.modern_solution-title{
+    color: #FFF;
+    font-size: 57px;
+    font-weight: 700;
+    width: 626px;
+}
+
+.modern_solution-text{
+    color: #6A7C95;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 35px 0px 54px;
+}
+.call_num_maill{
+    color: rgba(118, 134, 159, 0.80);
+    font-size: 18px;
+    font-weight: 500;
+}
+.small_contact-info{
+    margin-top: 152px;
+    display: flex;
+    justify-content: center;
+}
+.contact-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone_number{
+    margin-right: 34px;
+}
