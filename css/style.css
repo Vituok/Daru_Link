@@ -122,6 +122,7 @@ ul{
 }
 
 .first-screen__btn:hover{
+    cursor: pointer;
     color: #5CA35B;
     background: none;
     box-shadow: 0 0 10px #5CA35B;
@@ -154,7 +155,8 @@ color: #5CA35B;
 
 .screen-2{
     padding-top: 142px;
-    background-color:#181F29 ;
+    background-color:#181F29;
+    padding-bottom: 163px;
 }
 
 .screen-2__text{
@@ -164,21 +166,23 @@ color: #5CA35B;
 .screen-2--cards{
     display: flex;
     gap: 95px;
+    
 }
 .screen-2__item{
+    width: 317px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     text-align: center;
-    
     border-radius: 15px;
     background: #273140;
-    margin-bottom: 163px;
     padding: 25px;
 }
 
 .screen-2__item h2{
+    font-size: 28px;
     margin: 20px 0;
 }
 
