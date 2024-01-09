@@ -14,60 +14,122 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header_top">
+      <div class="header__top">
         <nav class="menu">
           <ul class="menu__list">
               
-            <li class="menu__item" style="margin-right: 64px;">
-              <a href="" class="menu__link">Главная</a></li>
-            <li class="menu__item" style="margin-right: 79px;">
-              <a href="" class="menu__link">Тариф</a></li>
-            <li class="menu__item"style="margin-right: 190px;">
-              <a href="" class="menu__link">Контакты</a></li>
-            <li class="menu__item logo" style="margin-right:161px;">
-              <a href="#"><img src="images/logo.svg" alt="logo"></a>
-            <li class="menu__item"style="margin-right: 64px;">
-              <a href="" class="menu__link">Регистрация</a></li>
-            <li class="menu__item"style="margin-right: 64px;">
-              <a href="" id="green"; class="menu__link">Вход</a></li>
+            <li class="menu__item" >
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item" >
+              <a href="#" class="menu__link">Тариф</a>
+            </li>
             <li class="menu__item">
-              <a href="" class="menu__link">Robokassa</a></li>
+              <a href="#" class="menu__link">Контакты</a>
+            </li>
+
+          </ul>  
+
+              <a href="#"><img src="images/logo.svg" alt="logo"></a>
+
+          <ul class="menu__list">
+
+            <li class="menu__item">
+                <a href="#" class="menu__link">Регистрация</a>
+            </li>
+            <li class="menu__item ">
+              <a href="#" class="menu__link green">Вход</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Robokassa</a>
+            </li>
+
           </ul>
         </nav>
       </div>
     </div>
-
+  </header>
   <main class="main">
-  <section class="modern_solution">
-    <div class="left_side">
-        <h1 class="modern_solution-title">Современное решение рутинных задач бизнеса</h1>
-        <p class="modern_solution-text">Создай свою страницу сайта <br>и начни принимать оплаты в 1 клик</p>
-        <button class="modern_solution-btn">Создать страницу</button>
-    </div>
-    <div class="right_side_picture">
-      <img src="images/phone.png" alt="">
-    </div>
-  </section>
-    <section class="small_contact-info">
-      <ul class="contact-information">
-        <li class="call">
-          <img style="margin-right: 12px;" src="images/small_picture-call.png" alt="">
-          </li>
-          <li class="phone_number">
-          <p class="call_num_maill">+7 (706) 420-21-01</p>
-        </li>
-        <li class="mail">
-          <img style="margin-right: 12px;" src="images/small_picture-mail.png" alt="">
-          </li>
-          <li>
-          <p class="call_num_maill">info@daru.link</p>
-        </li>
-      </ul>
-  </section>
+  <section class="first-screen">
+    <div class="container">
+      <div class="first-screen__container">
+        
+      <div class="first-screen__introduction">
+          <h1 class="first-screen__title">Современное решение рутинных задач бизнеса</h1>
+          <p class="first-screen__text">Создай свою страницу сайта <br>и начни принимать оплаты в 1 клик</p>
+          <button class="first-screen__btn">Создать страницу</button>
+      </div>
+      <div class="right_side__picture">
+        <img src="images/phone.svg" alt="phone">
+      </div>  
+    </div>  
+
+      <div class="first-screen__info">  
+
+        <div class="first-screen__info-item"> 
+          <a href="+7 (706) 420-21-01">
+            <img src="images/small_picture-call.png" alt="">
+            <p class="call_num_maill">+7 (706) 420-21-01</p>
+          </a>
+        </div>
+        <div class="first-screen__info-item">
+          <a href="info@daru.link">
+            <img src="images/small_picture-mail.png" alt="">
+            <p class="call_num_maill">info@daru.link</p>
+          </a>
+        </div>
+
+      </div>
+  </div>
        
     
-  </header>
+ <section class="screen-2">
+  <div class="container">
+      <h2>Daru Link</h2>
+      <p class="screen-2__text">Daru Link — это единое место, где вы можете создать собственный сайт, выбрав ему категорию бизнеса, подключить к нему онлайн-оплату или календарь записи всего 1 клик, не волноваться о налоговых отчетностях и прочих бюрократичных моментах</p>
+      <div class="screen-2--cards">
+        <div class="screen-2__item">
+          <img src="/images/icon_clock.svg" alt="icon_clock">
+          <h2>
+            Экономия
+          </h2>
+          <p>
+            Не переплачивай другим, создайте свою страницу от $40 в месяц
+          </p>
+        </div>
+        <div class="screen-2__item">
+          <img src="/images/Image_blue.svg" alt="Image_blue">
+          <h2>
+            Удобство
+          </h2>
+          <p>
+            Понятный и простой интерфейс не затруднит работу с сервисом
+          </p>
+        </div>
+        <div class="screen-2__item">
+          <img src="/images/Settings.svg" alt="Settings">
+          <h2>
+            Возможность
+          </h2>
+          <p>
+            Подключайте свой сайт к Kaspi.kz , 1C и Kazpost и контролируйте все в Daru
+          </p>
+        </div>
+      </div>
+    </div>
+ </section>
 
+<section class="screen-3">
+  <div class="container">
+    <h2>Возможность</h2>
+    <p>Интегрируйте свой сайт с магазином Kaspi.kz, 1C и Kazpost для автоматизации всех процессов в одном месте. На основе 1С ваш интернет-магазин будет подгружать данные о товаре</p>
+    <div class="screen-3__brands">
+      <img src="/images/brand_1.svg" alt="">
+      <img src="/images/brand_2.svg" alt="">
+      <img src="/images/brand_3.svg" alt="">
+    </div>
+  </div>
+</section>
 
   <script src="js/main.js"></script>
 </body>

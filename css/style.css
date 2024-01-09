@@ -9,96 +9,194 @@ html{
 }
 
 body{
+    color: #FFF;
     font-family: 'Montserrat', sans-serif;
+    background: #11161E;
 }
 
 .container{
-    max-width: 1920px;
-    padding: 0 10px; 
+    max-width: 1153px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
 header{
-    width: 1920px;
-    min-height: 100vh;
     position: relative;
     left: 0;
     right: 0;
-    background: #11161E;
 }
 
 a{
-    color:#76869F;
     text-decoration: none;
 }
 
-#green{
-    color: #5CA35B;
+h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.header_top{
+p{
+    color: #6A7C95;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.8%; /* 28.56px */
+}
+
+.green{
+    color: #5CA35B !important;
+}
+
+.menu{
+    padding:60px 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
 .menu__list{
     display: flex;
     align-items: center;
-    padding: 40px 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 193px;
+    gap: 64px;
+}
+
+.menu__list a{
+    color:#76869F;
+}
+.menu__list a:hover{
+    color:#5CA35B;
+    text-shadow: 0 0 10px #5CA35B;
 }
 
 ul{
     list-style: none;
 }
-.modern_solution{
-    max-width: 1920px;
-    height: 100%;
+
+.first-screen__container{
+    margin-top: 92px;
     display: flex;
-    justify-content: center;
 }
 
-.modern_solution-btn{
-    padding: 24px 26px 25px;
-    border-radius: 10px;
-    background: #5CA35B;
-    color: #FFF;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
+.first-screen__introduction{
+    padding: 41px 46px 0 0;
 }
 
-.modern_solution-title{
-    color: #FFF;
+.first-screen__title{
+
+    font-family: Montserrat;
     font-size: 57px;
+    font-style: normal;
     font-weight: 700;
-    width: 626px;
+    line-height: 114.8%; 
 }
 
-.modern_solution-text{
-    color: #6A7C95;
+.first-screen__text{
     font-size: 26px;
-    font-weight: 400;
     margin: 35px 0px 54px;
 }
-.call_num_maill{
-    color: rgba(118, 134, 159, 0.80);
-    font-size: 18px;
-    font-weight: 500;
-}
-.small_contact-info{
-    margin-top: 152px;
+
+.first-screen__btn{
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    color:#5CA35B;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.3%; 
+    padding: 24px 26px;
+    border-radius: 10px;
+    background:none;
+    border: solid #5CA35B 1px;
+    transition: 0.5s box-shadow;
 }
-.contact-information{
+
+.first-screen__btn:hover{
+    color: #5CA35B;
+    background: none;
+    box-shadow: 0 0 10px #5CA35B;
+}
+.first-screen__info{
     display: flex;
-    justify-content: center;
+    margin: 152px 0 164px;
+    gap: 34px;
     align-items: center;
 }
-.phone_number{
-    margin-right: 34px;
+
+.first-screen__info a{
+    color: rgba(118, 134, 159, 0.80);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.3%;
+    display: flex;
+}
+.first-screen__info-item a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.first-screen__info-item p:hover{
+color: #5CA35B;
+}
+
+.screen-2{
+    padding-top: 142px;
+    background-color:#181F29 ;
+}
+
+.screen-2__text{
+    margin: 13px 0 55px;
+}
+
+.screen-2--cards{
+    display: flex;
+    gap: 95px;
+}
+.screen-2__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    
+    border-radius: 15px;
+    background: #273140;
+    margin-bottom: 163px;
+    padding: 25px;
+}
+
+.screen-2__item h2{
+    margin: 20px 0;
+}
+
+.screen-2__item p{
+    font-size: 18px;
+}
+
+.screen-3{
+    padding-top: 125px;
+}
+
+.screen-3 p{
+    margin: 20px 0 55px;
+}
+
+.screen-3__brands{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 136px;
 }
