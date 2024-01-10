@@ -39,6 +39,16 @@ h2{
     line-height: normal;
 }
 
+h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 p{
     color: #6A7C95;
     font-family: Montserrat;
@@ -203,4 +213,163 @@ color: #5CA35B;
     align-items: center;
     gap: 32px;
     margin-bottom: 136px;
+}
+
+.screen-4{
+    background-color: #181F29;
+    padding-top: 112px;
+}
+
+.screen-4 p{
+    width: 512px;
+    margin: 13px 0 26px;
+}
+
+.wrap{
+    display: flex;
+    gap: 98px;
+}
+
+.screen-4__img{
+    display: flex;
+    gap: 68px;
+}
+
+
+.scr-4_img-1{
+    display: flex;
+    align-self: flex-end;
+    width: 180px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.screen-4__link{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #212A38;;
+    transition: 0.5s;
+}
+
+.screen-4__link a{
+    color: #92ABCE;  
+}
+
+.screen-4__link:hover{
+    cursor: pointer;
+    color: #1db3ea;
+    border: 2px solid #1db3ea;
+    background: none;
+    box-shadow: 0 0 10px #1db3ea;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #92ABCE;
+    border-radius: 20px;
+    border: 8px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: transparent
+  }
+
+.screen-5{
+    padding-top: 129px;
+}
+.scr-5__text {
+    width: 514px;
+    word-wrap: break-word;
+    margin: 10px 0 50px;
+}
+
+  .price__cards{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 317px;
+    height: 437px;
+    border-radius: 15px;
+    background: #273140;
+    margin-bottom: 169px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 47px 26px 0;
+}
+
+  .price__card ul{
+    list-style-type:inherit;
+    color: #717E92;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160.3%; 
+  }
+
+  .scr-5__small-text{
+    color: #717E92;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.8%;
+    margin-bottom: 23px;
+  }
+
+.scr-5__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 248px;
+    height: 38px;
+    border-radius: 5px;
+    margin-bottom: 47px;
+}
+.scr-5__btn a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-1{
+    background: #6A7395;
+}
+
+.btn-2{
+    background: #6A9590;
+}
+
+.btn-3{
+    background: #95936A;
 }
