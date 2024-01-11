@@ -351,7 +351,8 @@ color: #5CA35B;
     border-radius: 5px;
     margin-bottom: 47px;
 }
-.scr-5__btn a{
+
+.scr-5__btn p{
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -372,4 +373,55 @@ color: #5CA35B;
 
 .btn-3{
     background: #95936A;
+}
+
+.last-screen{
+    background-color:#181F29;
+    padding: 112px 0;
+}
+
+.last-screen p{
+    width: 479px;
+    word-wrap: break-word;
+    margin: 14px 0 26px;
+}
+
+.last-screen__img{
+    display: flex;
+    gap: 38px;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0 50px;
+}
+.logo-link{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo-link p{
+    width: 143px;
+}
+
+.footer__link p{
+    word-wrap: break-word;
+    color: #2D3746;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.8%; /* 15.456px */
+}
+
+.text-r{
+    display: flex;
+    text-align: right;
+    word-wrap: break-word;
+}
+.r-footer__link{
+    width: 116px;
 }
